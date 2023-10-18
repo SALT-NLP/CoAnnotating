@@ -7,12 +7,12 @@ Annotated data plays a critical role in Natural Language Processing (NLP) in tra
 
 ## Usage
 This section explains how you can apply human--LLM collaboration for data annotation.
-1. Prompt LLM several times using different types of prompts.
-Detailed implementation in #### **`LLM_Inferencing.py`**
-2. Postprocess the output and calculate entropy in responses.
-Detailed implementation in #### **`Expertise_Estimation.py`**
-3. Sort instances by entropy in ascending order and allocate top x% for LLM for annotation. Finetune a pretrained classifier using data that is created with human--LLM collaboration.
-Detailed implementation in #### **`Work_Allocation.ipynb`**
+1. Prompt LLM several times using different types of prompts.\
+Detailed implementation in **`LLM_Inferencing.py`**
+2. Postprocess the output and calculate entropy in responses.\
+Detailed implementation in **`Expertise_Estimation.py`**
+3. Sort instances by entropy in ascending order and allocate top x% for LLM for annotation. Finetune a pretrained classifier using data that is created with human--LLM collaboration.\
+Detailed implementation in **`Work_Allocation.ipynb`**
 
 ## Citation and Contact
 If you find this repository helpful, please cite our paper.
